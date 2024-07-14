@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Header</title>
+    <!-- CSS, meta tags, or other header content -->
+</head>
+<body>
+    <header>
+        <!-- Your header content goes here -->
+        <h1>This is the Header</h1>
+        <nav>
+            <ul>
+                <li><a th:href="@{/home}">Home</a></li>
+                <li><a th:href="@{/admin/dashboard}">Admin Dashboard</a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
